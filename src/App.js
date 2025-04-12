@@ -481,7 +481,7 @@ function App() {
                     style={{
                       width: cellSize,
                       height: cellSize,
-                      backgroundColor: cell ? (darkMode ? '#f0f0f0' : '#f0f0f0') : undefined,
+                      backgroundColor: cell ? (darkMode ? '#f0f0f0' : '#1a1a1a') : undefined,
                       border: `solid 1px ${darkMode ? '#444' : 'gray'}`,
                       cursor: 'pointer'
                     }}
